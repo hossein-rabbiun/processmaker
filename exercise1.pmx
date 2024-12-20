@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.5.8-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1734691378</meta>
+    <meta key="export_datetime"><![CDATA[2024-12-20T14:12:58+03:30]]></meta>
+    <meta key="export_server_addr"><![CDATA[::1:80]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">70326</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">test_2</meta>
+    <meta key="uid">90093975067383acc7add76075727389</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>32314460967383b4641d3d2014954120</act_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <act_name><![CDATA[بررسی اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>39714186367383b46425853083001845</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>32314460967383b4641d3d2014954120</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>148</bou_x>
+        <bou_y>76</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>50064808667383b6e53b597004809060</act_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <act_name><![CDATA[اصلاح اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>72662786067383b6e542929096513482</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>50064808667383b6e53b597004809060</element_uid>
+        <bou_element>22532889767383b1e389cf0088142872</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>348</bou_x>
+        <bou_y>78</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>12619751667383b96506f34014229675</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>86016673867383b964fecf5054682617</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>403</bou_x>
+        <bou_y>93</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>22488890067383b466f78e5006628253</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>45164525367383b466f09d8003125499</element_uid>
+        <bou_element>22532889767383b1e389cf0088142872</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>94</bou_x>
+        <bou_y>73</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>26403123767383b1e3908d7066492052</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>22532889767383b1e389cf0088142872</element_uid>
+        <bou_element>19089213867383af68d1b42052266412</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>674</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>27941621967383af6966777023507530</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>19089213867383af68d1b42052266412</element_uid>
+        <bou_element>17317357067383accab4474091346354</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>101</bou_x>
+        <bou_y>93</bou_y>
+        <bou_width>716</bou_width>
+        <bou_height>438</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>35162408367383be6417f49039314410</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>84187678567383be6413406044399093</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>537</bou_x>
+        <bou_y>97</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>39714186367383b46425853083001845</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>32314460967383b4641d3d2014954120</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>148</bou_x>
+        <bou_y>76</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>50848786667383b1e3ad341016250758</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>75740048267383b1e3a9b91024131700</element_uid>
+        <bou_element>19089213867383af68d1b42052266412</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>200</bou_y>
+        <bou_width>674</bou_width>
+        <bou_height>238</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>72662786067383b6e542929096513482</bou_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>50064808667383b6e53b597004809060</element_uid>
+        <bou_element>22532889767383b1e389cf0088142872</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>348</bou_x>
+        <bou_y>78</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_name>test_2</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>45164525367383b466f09d8003125499</evn_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <evn_name><![CDATA[تکمیل فرم وب اینتری]]></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>22488890067383b466f78e5006628253</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>45164525367383b466f09d8003125499</element_uid>
+        <bou_element>22532889767383b1e389cf0088142872</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>94</bou_x>
+        <bou_y>73</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>84187678567383be6413406044399093</evn_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>35162408367383be6417f49039314410</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>84187678567383be6413406044399093</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>537</bou_x>
+        <bou_y>97</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>31509484567383bbe47c400005842886</flo_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>50064808667383b6e53b597004809060</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>32314460967383b4641d3d2014954120</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>491</flo_x1>
+        <flo_y1>211</flo_y1>
+        <flo_x2>367</flo_x2>
+        <flo_y2>373</flo_y2>
+        <flo_state><![CDATA[[{"x":491,"y":211},{"x":367,"y":211},{"x":367,"y":373}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>44917609467383b96576784076486024</flo_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>32314460967383b4641d3d2014954120</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>86016673867383b964fecf5054682617</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>442</flo_x1>
+        <flo_y1>411</flo_y1>
+        <flo_x2>546</flo_x2>
+        <flo_y2>411</flo_y2>
+        <flo_state><![CDATA[[{"x":442,"y":411},{"x":546,"y":411}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>53865481267383b9657a126091825914</flo_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>45164525367383b466f09d8003125499</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>32314460967383b4641d3d2014954120</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>254</flo_x1>
+        <flo_y1>201</flo_y1>
+        <flo_x2>291</flo_x2>
+        <flo_y2>411</flo_y2>
+        <flo_state><![CDATA[[{"x":254,"y":201},{"x":254,"y":411},{"x":291,"y":411}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>87157780967383b96578160093221202</flo_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>86016673867383b964fecf5054682617</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>50064808667383b6e53b597004809060</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@rad_02 == 2]]></flo_condition>
+        <flo_x1>567</flo_x1>
+        <flo_y1>390</flo_y1>
+        <flo_x2>567</flo_x2>
+        <flo_y2>248</flo_y2>
+        <flo_state><![CDATA[[{"x":567,"y":390},{"x":567,"y":248}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>32213016567383be644c784056008138</flo_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>86016673867383b964fecf5054682617</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>84187678567383be6413406044399093</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@rad_02 == 1]]></flo_condition>
+        <flo_x1>587</flo_x1>
+        <flo_y1>411</flo_y1>
+        <flo_x2>680</flo_x2>
+        <flo_y2>411</flo_y2>
+        <flo_state><![CDATA[[{"x":587,"y":411},{"x":680,"y":411}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>86016673867383b964fecf5054682617</gat_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <gat_name></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>12619751667383b96506f34014229675</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>86016673867383b964fecf5054682617</element_uid>
+        <bou_element>75740048267383b1e3a9b91024131700</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>403</bou_x>
+        <bou_y>93</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="LANE">
+      <record>
+        <lan_uid>22532889767383b1e389cf0088142872</lan_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <lns_uid>19089213867383af68d1b42052266412</lns_uid>
+        <lan_name><![CDATA[متقاضی]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>26403123767383b1e3908d7066492052</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>22532889767383b1e389cf0088142872</element_uid>
+        <bou_element>19089213867383af68d1b42052266412</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>674</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>75740048267383b1e3a9b91024131700</lan_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <lns_uid>19089213867383af68d1b42052266412</lns_uid>
+        <lan_name><![CDATA[ادمین]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>50848786667383b1e3ad341016250758</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>75740048267383b1e3a9b91024131700</element_uid>
+        <bou_element>19089213867383af68d1b42052266412</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>200</bou_y>
+        <bou_width>674</bou_width>
+        <bou_height>238</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>19089213867383af68d1b42052266412</lns_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <lns_name><![CDATA[ثبت نام متقاضیان]]></lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>27941621967383af6966777023507530</bou_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <element_uid>19089213867383af68d1b42052266412</element_uid>
+        <bou_element>17317357067383accab4474091346354</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>101</bou_x>
+        <bou_y>93</bou_y>
+        <bou_width>716</bou_width>
+        <bou_height>438</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>60213025367383accacd533016225917</pro_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <dia_uid>17317357067383accab4474091346354</dia_uid>
+        <pro_name>test_2</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <prj_name>test_2</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2024-11-16 09:55:16]]></prj_create_date>
+        <prj_update_date><![CDATA[2024-11-25 17:59:36]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <pro_title>test_2</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>90093975067383acc7add76075727389</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_status_id>1</pro_status_id>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2024-11-25 17:59:36]]></pro_update_date>
+        <pro_create_date><![CDATA[2024-11-16 09:55:16]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <category_id>0</category_id>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>wee-4525367383b466f09d8003125499</tas_uid>
+        <tas_title>WEBENTRYEVENT</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>WEBENTRYEVENT</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000002</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>94</tas_posx>
+        <tas_posy>73</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>50064808667383b6e53b597004809060</tas_uid>
+        <tas_title><![CDATA[اصلاح اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>348</tas_posx>
+        <tas_posy>78</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>32314460967383b4641d3d2014954120</tas_uid>
+        <tas_title><![CDATA[بررسی اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>148</tas_posx>
+        <tas_posy>76</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>168182498674489d1224168006824497</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>32314460967383b4641d3d2014954120</tas_uid>
+        <rou_next_task>50064808667383b6e53b597004809060</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@rad_02 == 2]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>315772130674489d120d357015723890</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>32314460967383b4641d3d2014954120</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@rad_02 == 1]]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>667266610674489d12d47b3098252423</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>wee-4525367383b466f09d8003125499</tas_uid>
+        <rou_next_task>32314460967383b4641d3d2014954120</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>688539455674489d1242360042950565</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>50064808667383b6e53b597004809060</tas_uid>
+        <rou_next_task>32314460967383b4641d3d2014954120</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>12096070967443eaae99cf9001193965</dyn_uid>
+        <dyn_title>for_edite</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[90093975067383acc7add76075727389\12096070967443eaae99cf9001193965]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"for_edite","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"12096070967443eaae99cf9001193965","name":"for_edite","description":"","mode":"edit","script":{"type":"js","code":"// انتخاب دکمه \"ثبت\" با نوع submit\nconst submitButton = document.querySelector('button[type=\"submit\"]');\n\n// بررسی وجود دکمه و اعمال استایل\nif (submitButton) {\n    submitButton.style.backgroundColor = '#4CAF50'; // رنگ سبز\n    submitButton.style.color = 'white'; // رنگ متن سفید\n    submitButton.style.border = 'none'; // حذف حاشیه\n    submitButton.style.padding = '10px 20px'; // فاصله داخلی\n    submitButton.style.fontSize = '16px'; // اندازه فونت\n    submitButton.style.borderRadius = '5px'; // گوشه‌های گرد\n    submitButton.style.cursor = 'pointer'; // تغییر نشانگر موس\n}\n\n$(document).ready(function () {\n    // اضافه کردن رویداد کلیک به پنل با آیدی pnl_02\n    $(\"#pnl_02\").on(\"click\", function () {\n        // باز و بسته کردن پنل\n        $(\"#tex_personalCodeNemayandeh, #tex_fullNameNemayandeh, #tex_tellNumberNemayandeh, #tex_mobileNemayandeh\").slideToggle(\"fast\");\n\n    });\n});\n\n\n\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"requester_status","var_uid":"68026998067383eb32c05a1062891378","dataType":"string","protectedValue":false,"id":"rad_requester_status","name":"requester_status","label":"وضعیت متقاضی","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"","mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"حقیقی"},{"value":"2","label":"حقوقی"}],"var_name":"requester_status","colSpan":3}],[{"type":"panel","id":"pnl_01","content":"<div style=\"background-color:lightgreen;height:30px;width:100%\">\n          <center><h3>\n            مشخصات مالک حقیقی\n            </h3></center>\n</div>\n\n\n","border":"1px","colSpan":12}],[{"type":"text","variable":"text_fullname","var_uid":"36058389367384c46014205093883823","dataType":"string","protectedValue":false,"id":"tex_fullname","name":"text_fullname","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"text_fullname","colSpan":6},{"type":"text","variable":"txt_nationalCode","var_uid":"790159860673ed00f1b8f57087629191","dataType":"integer","protectedValue":false,"id":"txt_nationalCode","name":"txt_nationalCode","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"1000","formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_nationalCode","colSpan":6}],[{"type":"datetime","variable":"dat_birthday","var_uid":"24694013467385889a67372019887899","dataType":"datetime","protectedValue":false,"id":"dat_birthday","name":"dat_birthday","label":"تاریخ تولد","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"edit","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dat_birthday","colSpan":6},{"type":"text","variable":"tex_faderName","var_uid":"851523938673858420c3a99044590366","dataType":"string","protectedValue":false,"id":"tex_faderName","name":"tex_faderName","label":"نام پدر","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_faderName","colSpan":6}],[{"type":"text","variable":"tex_birthCity","var_uid":"452074461673859216c9c51066567921","dataType":"string","protectedValue":false,"id":"tex_birthCity","name":"tex_birthCity","label":"محل تولد","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_birthCity","colSpan":6},{"type":"text","variable":"tex_shenasnameh_code","var_uid":"384708947673858e398dc74062884107","dataType":"string","protectedValue":false,"id":"tex_shenasnameh_code","name":"tex_shenasnameh_code","label":"شماره شناسنامه","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_shenasnameh_code","colSpan":6}],[{"type":"text","variable":"tex_mobil","var_uid":"6436566876738598abe6af8030841739","dataType":"string","protectedValue":false,"id":"tex_mobil","name":"tex_mobil","label":"شماره موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobil","colSpan":6},{"type":"text","variable":"tex_tellNumber","var_uid":"9454925136738595ba005b8068705717","dataType":"string","protectedValue":false,"id":"tex_tellNumber","name":"tex_tellNumber","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumber","colSpan":6}],[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"rad_gender","var_uid":"27378627767385bbc0f1ef8086319135","dataType":"string","protectedValue":false,"id":"rad_gender","name":"rad_gender","label":"جنسیت","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"زن"},{"value":"2","label":"مرد"}],"var_name":"rad_gender","colSpan":3}],[{"type":"panel","id":"pnl_02","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             مشخصات نماینده مالک\n            </h3></center>\n</div>\n\n<div id=\"pnl_02\" class=\"panel-header\">\n    <span id=\"toggleIcon\" class=\"closed\">&#9654;</span> <!-- آیکون مثلث -->\n</div>\n<div id=\"tex_personalCodeNemayandeh\"></div>\n<div id=\"tex_fullNameNemayandeh\"></div>\n<div id=\"tex_tellNumberNemayandeh\"></div>\n<div id=\"tex_mobileNemayandeh\"></div>\n","border":"1px","colSpan":12}],[{"type":"text","variable":"tex_fullNameNemayandeh","var_uid":"68651081467385cdfd4e120062386554","dataType":"string","protectedValue":false,"id":"tex_fullNameNemayandeh","name":"tex_fullNameNemayandeh","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_fullNameNemayandeh","colSpan":6},{"type":"text","variable":"tex_personalCodeNemayandeh","var_uid":"71556774667385ca2528ba8026479701","dataType":"string","protectedValue":false,"id":"tex_personalCodeNemayandeh","name":"tex_personalCodeNemayandeh","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_personalCodeNemayandeh","colSpan":6}],[{"type":"text","variable":"tex_mobileNemayandeh","var_uid":"67674718867385d556b6fe7059870918","dataType":"string","protectedValue":false,"id":"tex_mobileNemayandeh","name":"tex_mobileNemayandeh","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileNemayandeh","colSpan":6},{"type":"text","variable":"tex_tellNumberNemayandeh","var_uid":"61994403267385d1e67bdd1099005888","dataType":"string","protectedValue":false,"id":"tex_tellNumberNemayandeh","name":"tex_tellNumberNemayandeh","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberNemayandeh","colSpan":6}],[{"type":"panel","id":"pnl_03","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             اطلاعات مالک\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"text","variable":"tex_mobileMalek","var_uid":"75034714567385e64d1e5e6007940186","dataType":"string","protectedValue":false,"id":"tex_mobileMalek","name":"tex_mobileMalek","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileMalek","colSpan":3},{"type":"text","variable":"tex_tellNumberMalek","var_uid":"78548851867385e320abe14005017025","dataType":"string","protectedValue":false,"id":"tex_tellNumberMalek","name":"tex_tellNumberMalek","label":"شماره ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberMalek","colSpan":3}],[{"type":"text","variable":"txt_address","var_uid":"77780169467386067b2f898062485669","dataType":"string","protectedValue":false,"id":"txt_address","name":"txt_address","label":"آدرس","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_address","colSpan":6},{"type":"dropdown","variable":"drp_city","var_uid":"839295820673a027ea961a8026323765","dataType":"string","protectedValue":false,"id":"drp_city","name":"drp_city","label":"شهرستان","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ID, city FROM PMT_CITY_NAMES","memoryCache":false,"dataVariable":"","options":[],"var_name":"drp_city","colSpan":3},{"type":"text","variable":"txt_postalCode","var_uid":"97177953467385f3bd8be63098336059","dataType":"string","protectedValue":false,"id":"txt_postalCode","name":"txt_postalCode","label":"کد پستی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"edit","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_postalCode","colSpan":3}],[{"type":"panel","id":"pnl_04","content":"<div style=\"background-color:darkgreen;color:white;height:30px;width:100%\">\n            <center><h3>\n            مدارک را در این قسمت بارگذاری نمایید\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"grid","variable":"gridVar001","var_uid":"30420868267399081657892010042188","dataType":"grid","protectedValue":false,"id":"gridVar001","name":"gridVar001","label":"","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"multipleFile","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"fil_documents","name":"fil_documents","label":"آپلود فایل","tabIndex":"","ariaLabel":"","inputDocument":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"edit","multiple":false,"inp_doc_uid":"","columnWidth":"50","width":100,"title":"آپلود فایل","var_name":"gridVar001"},{"type":"dropdown","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"dropdown0000000002","name":"dropdown0000000002","label":"عنوان مدارک","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"تصویر شناسنامه"},{"value":"2","label":"تصویر کارت ملی"},{"value":"3","label":"تصویر مدرک تحصیلی"},{"value":"4","label":"تصویر سند"}],"columnWidth":"50","width":100,"title":"عنوان مدارک"}],"data":[],"mode":"edit","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"","colSpan":6}],[{"type":"textarea","variable":"txr_01","var_uid":"67133478067443e1d479f57068006768","dataType":"string","protectedValue":false,"id":"txr_02","name":"txr_01","label":"توضیحات","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"view","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"5","var_name":"txr_01","colSpan":8},{"type":"submit","id":"sbt_01","name":"sbt_01","label":"ثبت و ارسال","tabIndex":"","ariaLabel":"","colSpan":4}]],"variables":[{"var_uid":"68026998067383eb32c05a1062891378","prj_uid":"90093975067383acc7add76075727389","var_name":"requester_status","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"حقیقی"},{"value":"2","label":"حقوقی"}],"inp_doc_uid":"","var_uid_old":"68026998067383eb32c05a1062891378","var_name_old":"requester_status","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"36058389367384c46014205093883823","prj_uid":"90093975067383acc7add76075727389","var_name":"text_fullname","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"36058389367384c46014205093883823","var_name_old":"text_fullname","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"790159860673ed00f1b8f57087629191","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_nationalCode","var_field_type":"integer","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"790159860673ed00f1b8f57087629191","var_name_old":"txt_nationalCode","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"24694013467385889a67372019887899","prj_uid":"90093975067383acc7add76075727389","var_name":"dat_birthday","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"24694013467385889a67372019887899","var_name_old":"dat_birthday","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"851523938673858420c3a99044590366","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_faderName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"851523938673858420c3a99044590366","var_name_old":"tex_faderName","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"452074461673859216c9c51066567921","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_birthCity","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"452074461673859216c9c51066567921","var_name_old":"tex_birthCity","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"384708947673858e398dc74062884107","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_shenasnameh_code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"384708947673858e398dc74062884107","var_name_old":"tex_shenasnameh_code","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"6436566876738598abe6af8030841739","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobil","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6436566876738598abe6af8030841739","var_name_old":"tex_mobil","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"9454925136738595ba005b8068705717","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumber","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9454925136738595ba005b8068705717","var_name_old":"tex_tellNumber","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"27378627767385bbc0f1ef8086319135","prj_uid":"90093975067383acc7add76075727389","var_name":"rad_gender","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"مرد"},{"value":"2","label":"زن"}],"inp_doc_uid":"","var_uid_old":"27378627767385bbc0f1ef8086319135","var_name_old":"rad_gender","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"68651081467385cdfd4e120062386554","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_fullNameNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"68651081467385cdfd4e120062386554","var_name_old":"tex_fullNameNemayandeh","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"71556774667385ca2528ba8026479701","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_personalCodeNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"71556774667385ca2528ba8026479701","var_name_old":"tex_personalCodeNemayandeh","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"67674718867385d556b6fe7059870918","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"67674718867385d556b6fe7059870918","var_name_old":"tex_mobileNemayandeh","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"61994403267385d1e67bdd1099005888","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"61994403267385d1e67bdd1099005888","var_name_old":"tex_tellNumberNemayandeh","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"75034714567385e64d1e5e6007940186","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"75034714567385e64d1e5e6007940186","var_name_old":"tex_mobileMalek","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"78548851867385e320abe14005017025","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"78548851867385e320abe14005017025","var_name_old":"tex_tellNumberMalek","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"77780169467386067b2f898062485669","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_address","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"77780169467386067b2f898062485669","var_name_old":"txt_address","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"839295820673a027ea961a8026323765","prj_uid":"90093975067383acc7add76075727389","var_name":"drp_city","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"839295820673a027ea961a8026323765","var_name_old":"drp_city","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"97177953467385f3bd8be63098336059","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_postalCode","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"97177953467385f3bd8be63098336059","var_name_old":"txt_postalCode","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"30420868267399081657892010042188","prj_uid":"90093975067383acc7add76075727389","var_name":"gridVar001","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"30420868267399081657892010042188","var_name_old":"gridVar001","prj_uid_old":"90093975067383acc7add76075727389","create":false},{"var_uid":"67133478067443e1d479f57068006768","prj_uid":"90093975067383acc7add76075727389","var_name":"txr_01","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"67133478067443e1d479f57068006768","var_name_old":"txr_01","prj_uid_old":"90093975067383acc7add76075727389","create":false}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-11-25 12:42:03]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>419238026673ee3428caf95067457669</dyn_uid>
+        <dyn_title>show_info</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[90093975067383acc7add76075727389\419238026673ee3428caf95067457669]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"show_info","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"419238026673ee3428caf95067457669","name":"show_info","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"grid","variable":"userInformation","var_uid":"716573125673ee367aa7b57098690092","dataType":"grid","protectedValue":false,"id":"userInformation","name":"userInformation","label":"grid_1","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"username","name":"username","label":"username","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"username","var_name":"userInformation"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"firstname","name":"firstname","label":"firstname","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"firstname","var_name":"userInformation"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"lastname","name":"lastname","label":"lastname","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"lastname","var_name":"userInformation"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"mail","name":"mail","label":"mail","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"mail","var_name":"userInformation"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"address","name":"address","label":"address","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"address","var_name":"userInformation"},{"type":"text","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"zipcode","name":"zipcode","label":"zipcode","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"columnWidth":"10","width":100,"title":"zipcode","var_name":"userInformation"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"grid_1","colSpan":12}]],"variables":[{"var_uid":"716573125673ee367aa7b57098690092","prj_uid":"90093975067383acc7add76075727389","var_name":"userInformation","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-11-21 11:12:31]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>72321366967383cce387c03058240915</dyn_uid>
+        <dyn_title>fill_form</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[90093975067383acc7add76075727389\72321366967383cce387c03058240915]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"fill_form","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"72321366967383cce387c03058240915","name":"fill_form","description":"","mode":"edit","script":{"type":"js","code":"// انتخاب دکمه \"ثبت\" با نوع submit\nconst submitButton = document.querySelector('button[type=\"submit\"]');\n\n// بررسی وجود دکمه و اعمال استایل\nif (submitButton) {\n    submitButton.style.backgroundColor = '#4CAF50'; // رنگ سبز\n    submitButton.style.color = 'white'; // رنگ متن سفید\n    submitButton.style.border = 'none'; // حذف حاشیه\n    submitButton.style.padding = '10px 20px'; // فاصله داخلی\n    submitButton.style.fontSize = '16px'; // اندازه فونت\n    submitButton.style.borderRadius = '5px'; // گوشه‌های گرد\n    submitButton.style.cursor = 'pointer'; // تغییر نشانگر موس\n}\n\n// امکان باز و بسته کردن پنل\n$(document).ready(function () {\n      $(\"#pnl_01\").on(\"click\", function () {\n        // باز و بسته کردن پنل\n        $(\"#txt_nationalCode, #tex_fullname, #tex_faderName, #dat_birthday,#tex_shenasnameh_code, #tex_birthCity, #tex_tellNumber,#tex_mobil,#tex_shenasnameh_code\").slideToggle(\"fast\");\n\n    });\n    // اضافه کردن رویداد کلیک به پنل با آیدی pnl_02\n    $(\"#pnl_02\").on(\"click\", function () {\n        // باز و بسته کردن پنل\n        $(\"#tex_personalCodeNemayandeh, #tex_fullNameNemayandeh, #tex_tellNumberNemayandeh, #tex_mobileNemayandeh\").slideToggle(\"fast\");\n\n    });\n});\n/*\n$(document).ready(function () {\n    $(\"#sbt_01\").on(\"click\", function (e) {\n        e.preventDefault(); // جلوگیری از ارسال پیش‌فرض فرم\n\n        const nationalCode = $(\"#txt_nationalCode\").getValue(); \n      const fullname = $(\"#tex_fullname\").getValue(); \n\t\t$.ajax({\n   \t\t\t url: \"http://localhost/sysworkflow/en/neoclassic/90093975067383acc7add76075727389/45164525367383b466f09d8003125499.php\", // Endpoint to call the trigger\n   \t\t\t type: \"POST\",\n   \t\t\t data: { txt_nationalCode:$(\"#txt_nationalCode\").getValue() },\n    \t\t success: function (response) {\n               //  if (response == \"2\") {\n\n      \t\t\t  if ( $(\"#txt_nationalCode\").getValue() == 4270792965  ) {\n        \t\t      alert(\"این کد ملی قبلاً ثبت شده است.\");\n       \t\t\t   } else {\n                    // باز کردن صفحه جدید و ارسال اطلاعات\n                    var newWindow = window.open(\"\", \"_blank\"); // باز کردن صفحه جدید\n                    newWindow.document.write(`\n                        <html>\n                            <head>\n                                <title>اطلاعات کاربر</title>\n                            </head>\n                            <body>\n                                <h1>اطلاعات وارد شده:</h1>\n                                <p><strong>کد ملی:</strong> ${nationalCode}</p>\n                                <p><strong>نام و نام خانوادگی:</strong> ${fullname}</p>\n                                         <a href=\"http://localhost/sysworkflow/en/neoclassic/90093975067383acc7add76075727389/45164525367383b466f09d8003125499.php\"\n                                                style=\"display: inline-block; margin-top: 20px; background-color: #4CAF50; color: white; text-decoration: none; padding: 10px 20px; border-radius: 5px;\">\n                                                      بازگشت به صفحه قبل\n                                          </a>\n                            </body>\n                        </html>\n                    `);\n                    newWindow.document.close(); // بستن جریان نوشتن به صفحه\n                }\n   \t\t\t },\n            error: function () {\n     \t\t\t   alert(\"خطایی در سرور رخ داده است.\");\n    }\n});\n\n    });\n});\n*/\n\n\n\n$(document).ready(function () {\n    $(\"#sbt_01\").on(\"click\", function (e) {\n        e.preventDefault(); // جلوگیری از ارسال پیش‌فرض فرم\n        const nationalCode = $(\"#txt_nationalCode\").getValue(); \n    \t\t$.ajax({\n   \t\t\t url: \"http://localhost/sysworkflow/en/neoclassic/90093975067383acc7add76075727389/45164525367383b466f09d8003125499.php\", // Endpoint to call the trigger\n              type: \"POST\",\n              data: { txt_nationalCode:nationalCode },\n    \t\t success: function (response) {\n                // if (response.isDuplicate === \"true\") {\n\n      \t\t\t  if (nationalCode == \"4270792965\" ) {\n        \t\t      alert(\"این کد ملی قبلاً ثبت شده است.\");\n       \t\t\t   } else {\n                      alert(\" فرایند موفق\");\n                     $(\"#72321366967383cce387c03058240915\").submit(); \n                    // باز کردن صفحه جدید و ارسال اطلاعات\n\t\t\t\t\t\t\n               }\n   \t\t\t },\n            error: function () {\n     \t\t\t   alert(\"خطایی در سرور رخ داده است.\");\n    }\n});\n\n    });\n});\n\n\n\n\n\n\n\n\n\n// صحت سنجی کد ملی\n$(document).ready(function () {\n    // اضافه کردن رویداد focusout به فیلد کد ملی\n    $(\"#txt_nationalCode\").on(\"focusout\", function () {\n        const nationalCode = $(this).getValue();  \n        let isValid = true;\n\n            let sum = 0;\n            for (let i = 0; i < 9; i++) {\n                sum += parseInt(nationalCode.charAt(i)) * (10 - i);\n            }\n\n            const lastDigit = parseInt(nationalCode.charAt(9));\n            const divideRemaining = sum % 11;\n\n            if (divideRemaining < 2) {\n                isValid = (lastDigit == divideRemaining);\n            } else {\n                isValid = (lastDigit == (11 - divideRemaining));\n            }\n        \n        if (!isValid) {\n            $(this).css(\"border\", \"2px solid red\"); // تغییر حاشیه به رنگ قرمز در صورت عدم صحت کد ملی\n            alert(\"کد ملی وارد شده معتبر نمی‌باشد.\");}\n          else{\n             $(this).css(\"border\", \"1px solid #ccc\");    \n        }\n    });\n});\n\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"requester_status","var_uid":"68026998067383eb32c05a1062891378","dataType":"string","protectedValue":false,"id":"rad_requester_status","name":"requester_status","label":"وضعیت متقاضی","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"حقیقی"},{"value":"2","label":"حقوقی"}],"var_name":"requester_status","colSpan":3}],[{"type":"panel","id":"pnl_01","content":"<div style=\"background-color:lightgreen;height:30px;width:100%\">\n          <center><h3>\n            مشخصات مالک حقیقی\n            </h3></center>\n</div>\n\n<div id=\"pnl_01\" class=\"panel-header\">\n    <span id=\"toggleIcon\" class=\"closed\">&#9654;</span> <!-- آیکون مثلث -->\n</div>\n<div id=\"tex_personalCodeNemayandeh\"></div>\n<div id=\"tex_fullNameNemayandeh\"></div>\n<div id=\"tex_tellNumberNemayandeh\"></div>\n<div id=\"tex_mobileNemayandeh\"></div>\n\n","border":"1px","colSpan":12}],[{"type":"text","variable":"text_fullname","var_uid":"36058389367384c46014205093883823","dataType":"string","protectedValue":false,"id":"tex_fullname","name":"text_fullname","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"text_fullname","colSpan":6},{"type":"text","variable":"txt_nationalCode","var_uid":"790159860673ed00f1b8f57087629191","dataType":"integer","protectedValue":false,"id":"txt_nationalCode","name":"txt_nationalCode","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{10}$","validateMessage":"کد ملی باید دقبقاً 10 رقم باشد","maxLength":"1000","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_nationalCode","colSpan":6}],[{"type":"datetime","variable":"dat_birthday","var_uid":"24694013467385889a67372019887899","dataType":"datetime","protectedValue":false,"id":"dat_birthday","name":"dat_birthday","label":"تاریخ تولد","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dat_birthday","colSpan":6},{"type":"text","variable":"tex_faderName","var_uid":"851523938673858420c3a99044590366","dataType":"string","protectedValue":false,"id":"tex_faderName","name":"tex_faderName","label":"نام پدر","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_faderName","colSpan":6}],[{"type":"text","variable":"tex_birthCity","var_uid":"452074461673859216c9c51066567921","dataType":"string","protectedValue":false,"id":"tex_birthCity","name":"tex_birthCity","label":"محل تولد","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_birthCity","colSpan":6},{"type":"text","variable":"tex_shenasnameh_code","var_uid":"384708947673858e398dc74062884107","dataType":"string","protectedValue":false,"id":"tex_shenasnameh_code","name":"tex_shenasnameh_code","label":"شماره شناسنامه","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_shenasnameh_code","colSpan":6}],[{"type":"text","variable":"tex_mobil","var_uid":"6436566876738598abe6af8030841739","dataType":"string","protectedValue":false,"id":"tex_mobil","name":"tex_mobil","label":"شماره موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{11}$","validateMessage":"شماره موبایل صحیح نیست","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobil","colSpan":6},{"type":"text","variable":"tex_tellNumber","var_uid":"9454925136738595ba005b8068705717","dataType":"string","protectedValue":false,"id":"tex_tellNumber","name":"tex_tellNumber","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^0\\d{2}[1-9]\\d{7}$","validateMessage":"فرمت وارد شده صحیح نیست. (مثال02433445566)","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumber","colSpan":6}],[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"rad_gender","var_uid":"27378627767385bbc0f1ef8086319135","dataType":"string","protectedValue":false,"id":"rad_gender","name":"rad_gender","label":"جنسیت","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"زن"},{"value":"2","label":"مرد"}],"var_name":"rad_gender","colSpan":3}],[{"type":"panel","id":"pnl_02","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             مشخصات نماینده مالک\n            </h3></center>\n</div>\n\n<div id=\"pnl_02\" class=\"panel-header\">\n    <span id=\"toggleIcon\" class=\"closed\">&#9654;</span> <!-- آیکون مثلث -->\n</div>\n<div id=\"tex_personalCodeNemayandeh\"></div>\n<div id=\"tex_fullNameNemayandeh\"></div>\n<div id=\"tex_tellNumberNemayandeh\"></div>\n<div id=\"tex_mobileNemayandeh\"></div>\n","border":"1px","colSpan":12}],[{"type":"text","variable":"tex_fullNameNemayandeh","var_uid":"68651081467385cdfd4e120062386554","dataType":"string","protectedValue":false,"id":"tex_fullNameNemayandeh","name":"tex_fullNameNemayandeh","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_fullNameNemayandeh","colSpan":6},{"type":"text","variable":"tex_personalCodeNemayandeh","var_uid":"71556774667385ca2528ba8026479701","dataType":"string","protectedValue":false,"id":"tex_personalCodeNemayandeh","name":"tex_personalCodeNemayandeh","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{10}$","validateMessage":"کد ملی صحیح نیست","maxLength":"100","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_personalCodeNemayandeh","colSpan":6}],[{"type":"text","variable":"tex_mobileNemayandeh","var_uid":"67674718867385d556b6fe7059870918","dataType":"string","protectedValue":false,"id":"tex_mobileNemayandeh","name":"tex_mobileNemayandeh","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{11}$","validateMessage":"شماره موبایل صحیح نیست","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileNemayandeh","colSpan":6},{"type":"text","variable":"tex_tellNumberNemayandeh","var_uid":"61994403267385d1e67bdd1099005888","dataType":"string","protectedValue":false,"id":"tex_tellNumberNemayandeh","name":"tex_tellNumberNemayandeh","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^0\\d{2}[1-9]\\d{7}$","validateMessage":"فرمت وارد شده صحیح نیست. (مثال02433445566)","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberNemayandeh","colSpan":6}],[{"type":"panel","id":"pnl_03","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             اطلاعات مالک\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"text","variable":"tex_mobileMalek","var_uid":"75034714567385e64d1e5e6007940186","dataType":"string","protectedValue":false,"id":"tex_mobileMalek","name":"tex_mobileMalek","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{11}$","validateMessage":"شماره موبایل صحیح نیست","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileMalek","colSpan":3},{"type":"text","variable":"tex_tellNumberMalek","var_uid":"78548851867385e320abe14005017025","dataType":"string","protectedValue":false,"id":"tex_tellNumberMalek","name":"tex_tellNumberMalek","label":"شماره ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^0\\d{2}[1-9]\\d{7}$","validateMessage":"فرمت وارد شده صحیح نیست. (مثال02433445566)","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberMalek","colSpan":3}],[{"type":"text","variable":"txt_address","var_uid":"77780169467386067b2f898062485669","dataType":"string","protectedValue":false,"id":"txt_address","name":"txt_address","label":"آدرس","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_address","colSpan":6},{"type":"dropdown","variable":"drp_city","var_uid":"839295820673a027ea961a8026323765","dataType":"string","protectedValue":false,"id":"drp_city","name":"drp_city","label":"شهرستان","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ID, city FROM PMT_CITY_NAMES","memoryCache":false,"dataVariable":"","options":[],"var_name":"drp_city","colSpan":3},{"type":"text","variable":"txt_postalCode","var_uid":"97177953467385f3bd8be63098336059","dataType":"string","protectedValue":false,"id":"txt_postalCode","name":"txt_postalCode","label":"کد پستی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\d{10}$","validateMessage":"کد پستی صحیح نیست","maxLength":"100","formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_postalCode","colSpan":3}],[{"type":"panel","id":"pnl_04","content":"<div style=\"background-color:darkgreen;color:white;height:30px;width:100%\">\n            <center><h3>\n            مدارک را در این قسمت بارگذاری نمایید\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"grid","variable":"gridVar001","var_uid":"30420868267399081657892010042188","dataType":"grid","protectedValue":false,"id":"gridVar001","name":"gridVar001","label":"","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"multipleFile","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"fil_documents","name":"fil_documents","label":"آپلود فایل","tabIndex":"","ariaLabel":"","inputDocument":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"parent","multiple":false,"inp_doc_uid":"","columnWidth":"50","width":100,"title":"آپلود فایل","var_name":"gridVar001"},{"type":"dropdown","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"dropdown0000000002","name":"dropdown0000000002","label":"عنوان مدارک","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"تصویر شناسنامه"},{"value":"2","label":"تصویر کارت ملی"},{"value":"3","label":"تصویر مدرک تحصیلی"},{"value":"4","label":"تصویر سند"}],"columnWidth":"50","width":100,"title":"عنوان مدارک"}],"data":[],"mode":"parent","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"","colSpan":6}],[{"colSpan":8},{"type":"submit","id":"sbt_01","name":"sbt_01","label":"ثبت و ارسال","tabIndex":"","ariaLabel":"","colSpan":4}]],"variables":[{"var_uid":"68026998067383eb32c05a1062891378","prj_uid":"90093975067383acc7add76075727389","var_name":"requester_status","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"حقیقی\"},{\"value\":\"2\",\"label\":\"حقوقی\"}]","inp_doc_uid":""},{"var_uid":"36058389367384c46014205093883823","prj_uid":"90093975067383acc7add76075727389","var_name":"text_fullname","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"790159860673ed00f1b8f57087629191","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_nationalCode","var_field_type":"integer","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"24694013467385889a67372019887899","prj_uid":"90093975067383acc7add76075727389","var_name":"dat_birthday","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"851523938673858420c3a99044590366","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_faderName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"452074461673859216c9c51066567921","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_birthCity","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"384708947673858e398dc74062884107","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_shenasnameh_code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"6436566876738598abe6af8030841739","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobil","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"9454925136738595ba005b8068705717","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumber","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"27378627767385bbc0f1ef8086319135","prj_uid":"90093975067383acc7add76075727389","var_name":"rad_gender","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"مرد\"},{\"value\":\"2\",\"label\":\"زن\"}]","inp_doc_uid":""},{"var_uid":"68651081467385cdfd4e120062386554","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_fullNameNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"71556774667385ca2528ba8026479701","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_personalCodeNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"67674718867385d556b6fe7059870918","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"61994403267385d1e67bdd1099005888","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"75034714567385e64d1e5e6007940186","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"78548851867385e320abe14005017025","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"77780169467386067b2f898062485669","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_address","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"839295820673a027ea961a8026323765","prj_uid":"90093975067383acc7add76075727389","var_name":"drp_city","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"97177953467385f3bd8be63098336059","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_postalCode","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"30420868267399081657892010042188","prj_uid":"90093975067383acc7add76075727389","var_name":"gridVar001","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-12-04 13:16:40]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>942361191673e225ea3d9b9071999633</dyn_uid>
+        <dyn_title>test_code</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[90093975067383acc7add76075727389\942361191673e225ea3d9b9071999633]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"test_code","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"942361191673e225ea3d9b9071999633","name":"test_code","description":"","mode":"edit","script":{"type":"js","code":"/*\n$(document).ready(function () {\n    $(\"#submit01\").click(function (event) {\n        // جلوگیری از ارسال پیش‌فرض فرم\n        event.preventDefault();\n\n        // مقادیر فیلدها را دریافت کنید\n        let nationalCode = $(\"#txt1\").val();\n        let fullName = $(\"#txt2\").val();\n        // محتوای صفحه جدید\n        let newPageContent = `\n            <html>\n                <head>\n                    <title>اطلاعات وارد شده</title>\n                    <style>\n                        body {\n                            font-family: Arial,  sans-serif;\n                            margin: 20px;\n                            padding: 20px;\n                            background-color: #f9f9f9;\n                        }\n                        .info-box {\n                            border: 1px solid #ccc;\n                            border-radius: 5px;\n                            padding: 10px;\n                            background-color: #fff;\n                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n                        }\n                        .info-box h3 {\n                            margin-bottom: 10px;\n                            color: #333;\n                        }\n                        .info-box p {\n                            margin: 5px 0;\n                        }\n                    </style>\n                </head>\n                <body>\n                    <div class=\"info-box\">\n                        <h3>اطلاعات شما</h3>\n                        <p><strong>کد ملی:</strong> ${nationalCode} </p>\n                        <p><strong>نام و نام خانوادگی:</strong> ${fullName}</p>\n                    </div>\n                </body>\n            </html>\n        `;\n\n        // باز کردن تب جدید و نوشتن محتوا در آن\n        let newWindow = window.open(\"\", \"_blank\");\n        newWindow.document.open();\n        newWindow.document.write(newPageContent);\n        newWindow.document.close();\n    });\n});\n\n$(document).ready(function () {\n    $(\"#s1\").click(function () {\n        var txt1Value = $(\"#txt1\").val();\n        var txt2Value = $(\"#txt2\").val();\n\n        // ایجاد یک تب جدید و نوشتن مقادیر در آن\n        var newTab = window.open();\n        newTab.document.write(\"<html><head><title>نمایش اطلاعات</title></head><body>\");\n        newTab.document.write(\"<h1>مقادیر وارد شده</h1>\");\n        newTab.document.write(\"<p>مقدار 1: \" + txt1Value + \"</p>\");\n        newTab.document.write(\"<p>مقدار 2: \" + txt2Value + \"</p>\");\n        newTab.document.write(\"</body></html>\");\n        newTab.document.close();\n    });\n});\n*/\n$(document).ready(function () {\n    $(\"#txt1\").on(\"focusout\", function () {\n        var codeLength = $(this).val().length;\n        if (codeLength !== 2) {\n            $(this).css(\"border\", \"2px solid red\");\n            alert(\"طول کد ملی باید دقیقاً 2 کاراکتر باشد.\");\n        } else {\n            $(this).css(\"border\", \"1px solid #ccc\");\n        }\n    });\n});\n\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"txt2","var_uid":"391322455673e22d766f921007473028","dataType":"string","protectedValue":false,"id":"txt2","name":"txt2","label":"Txt 2","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt2","colSpan":6},{"type":"text","variable":"txt1","var_uid":"542051429673e228b632e84059183500","dataType":"string","protectedValue":false,"id":"txt1","name":"txt1","label":"Txt 1","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt1","colSpan":6}],[{"type":"submit","id":"s1","name":"submit0000000001","label":"submit_1","tabIndex":"","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"391322455673e22d766f921007473028","prj_uid":"90093975067383acc7add76075727389","var_name":"txt2","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"542051429673e228b632e84059183500","prj_uid":"90093975067383acc7add76075727389","var_name":"txt1","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-11-24 15:58:55]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>99282079867418658dcee96067319156</dyn_uid>
+        <dyn_title>preview_admin</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[90093975067383acc7add76075727389\99282079867418658dcee96067319156]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"preview_admin","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"99282079867418658dcee96067319156","name":"preview_admin","description":"","mode":"edit","script":{"type":"js","code":"// انتخاب دکمه \"ثبت\" با نوع submit\nconst submitButton = document.querySelector('button[type=\"submit\"]');\n\n// بررسی وجود دکمه و اعمال استایل\nif (submitButton) {\n    submitButton.style.backgroundColor = '#4CAF50'; // رنگ سبز\n    submitButton.style.color = 'white'; // رنگ متن سفید\n    submitButton.style.border = 'none'; // حذف حاشیه\n    submitButton.style.padding = '10px 20px'; // فاصله داخلی\n    submitButton.style.fontSize = '16px'; // اندازه فونت\n    submitButton.style.borderRadius = '5px'; // گوشه‌های گرد\n    submitButton.style.cursor = 'pointer'; // تغییر نشانگر موس\n}\n\n$(document).ready(function () {\n    // اضافه کردن رویداد کلیک به پنل با آیدی pnl_02\n    $(\"#pnl_02\").on(\"click\", function () {\n        // باز و بسته کردن پنل\n        $(\"#tex_personalCodeNemayandeh, #tex_fullNameNemayandeh, #tex_tellNumberNemayandeh, #tex_mobileNemayandeh\").slideToggle(\"fast\");\n\n    });\n});\n\n\n\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"requester_status","var_uid":"68026998067383eb32c05a1062891378","dataType":"string","protectedValue":false,"id":"rad_requester_status","name":"requester_status","label":"وضعیت متقاضی","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"حقیقی"},{"value":"2","label":"حقوقی"}],"var_name":"requester_status","colSpan":3}],[{"type":"panel","id":"pnl_01","content":"<div style=\"background-color:lightgreen;height:30px;width:100%\">\n          <center><h3>\n            مشخصات مالک حقیقی\n            </h3></center>\n</div>\n\n\n","border":"1px","colSpan":12}],[{"type":"text","variable":"text_fullname","var_uid":"36058389367384c46014205093883823","dataType":"string","protectedValue":false,"id":"tex_fullname","name":"text_fullname","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"text_fullname","colSpan":6},{"type":"text","variable":"txt_nationalCode","var_uid":"790159860673ed00f1b8f57087629191","dataType":"integer","protectedValue":false,"id":"txt_nationalCode","name":"txt_nationalCode","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"1000","formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_nationalCode","colSpan":6}],[{"type":"datetime","variable":"dat_birthday","var_uid":"24694013467385889a67372019887899","dataType":"datetime","protectedValue":false,"id":"dat_birthday","name":"dat_birthday","label":"تاریخ تولد","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"view","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"dat_birthday","colSpan":6},{"type":"text","variable":"tex_faderName","var_uid":"851523938673858420c3a99044590366","dataType":"string","protectedValue":false,"id":"tex_faderName","name":"tex_faderName","label":"نام پدر","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_faderName","colSpan":6}],[{"type":"text","variable":"tex_birthCity","var_uid":"452074461673859216c9c51066567921","dataType":"string","protectedValue":false,"id":"tex_birthCity","name":"tex_birthCity","label":"محل تولد","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_birthCity","colSpan":6},{"type":"text","variable":"tex_shenasnameh_code","var_uid":"384708947673858e398dc74062884107","dataType":"string","protectedValue":false,"id":"tex_shenasnameh_code","name":"tex_shenasnameh_code","label":"شماره شناسنامه","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_shenasnameh_code","colSpan":6}],[{"type":"text","variable":"tex_mobil","var_uid":"6436566876738598abe6af8030841739","dataType":"string","protectedValue":false,"id":"tex_mobil","name":"tex_mobil","label":"شماره موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobil","colSpan":6},{"type":"text","variable":"tex_tellNumber","var_uid":"9454925136738595ba005b8068705717","dataType":"string","protectedValue":false,"id":"tex_tellNumber","name":"tex_tellNumber","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumber","colSpan":6}],[{"colSpan":3},{"colSpan":3},{"colSpan":3},{"type":"radio","variable":"rad_gender","var_uid":"27378627767385bbc0f1ef8086319135","dataType":"string","protectedValue":false,"id":"rad_gender","name":"rad_gender","label":"جنسیت","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"زن"},{"value":"2","label":"مرد"}],"var_name":"rad_gender","colSpan":3}],[{"type":"panel","id":"pnl_02","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             مشخصات نماینده مالک\n            </h3></center>\n</div>\n\n<div id=\"pnl_02\" class=\"panel-header\">\n    <span id=\"toggleIcon\" class=\"closed\">&#9654;</span> <!-- آیکون مثلث -->\n</div>\n<div id=\"tex_personalCodeNemayandeh\"></div>\n<div id=\"tex_fullNameNemayandeh\"></div>\n<div id=\"tex_tellNumberNemayandeh\"></div>\n<div id=\"tex_mobileNemayandeh\"></div>\n","border":"1px","colSpan":12}],[{"type":"text","variable":"tex_fullNameNemayandeh","var_uid":"68651081467385cdfd4e120062386554","dataType":"string","protectedValue":false,"id":"tex_fullNameNemayandeh","name":"tex_fullNameNemayandeh","label":"نام و نام خانوادگی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_fullNameNemayandeh","colSpan":6},{"type":"text","variable":"tex_personalCodeNemayandeh","var_uid":"71556774667385ca2528ba8026479701","dataType":"string","protectedValue":false,"id":"tex_personalCodeNemayandeh","name":"tex_personalCodeNemayandeh","label":"کد ملی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_personalCodeNemayandeh","colSpan":6}],[{"type":"text","variable":"tex_mobileNemayandeh","var_uid":"67674718867385d556b6fe7059870918","dataType":"string","protectedValue":false,"id":"tex_mobileNemayandeh","name":"tex_mobileNemayandeh","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileNemayandeh","colSpan":6},{"type":"text","variable":"tex_tellNumberNemayandeh","var_uid":"61994403267385d1e67bdd1099005888","dataType":"string","protectedValue":false,"id":"tex_tellNumberNemayandeh","name":"tex_tellNumberNemayandeh","label":"تلفن ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberNemayandeh","colSpan":6}],[{"type":"panel","id":"pnl_03","content":"<div style=\"background-color:lightgreen;height:3xpx;width:100%\">\n            <center><h3>\n             اطلاعات مالک\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"text","variable":"tex_mobileMalek","var_uid":"75034714567385e64d1e5e6007940186","dataType":"string","protectedValue":false,"id":"tex_mobileMalek","name":"tex_mobileMalek","label":"موبایل","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_mobileMalek","colSpan":3},{"type":"text","variable":"tex_tellNumberMalek","var_uid":"78548851867385e320abe14005017025","dataType":"string","protectedValue":false,"id":"tex_tellNumberMalek","name":"tex_tellNumberMalek","label":"شماره ثابت","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"tex_tellNumberMalek","colSpan":3}],[{"type":"text","variable":"txt_address","var_uid":"77780169467386067b2f898062485669","dataType":"string","protectedValue":false,"id":"txt_address","name":"txt_address","label":"آدرس","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_address","colSpan":6},{"type":"dropdown","variable":"drp_city","var_uid":"839295820673a027ea961a8026323765","dataType":"string","protectedValue":false,"id":"drp_city","name":"drp_city","label":"شهرستان","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"view","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"SELECT ID, city FROM PMT_CITY_NAMES","memoryCache":false,"dataVariable":"","options":[],"var_name":"drp_city","colSpan":3},{"type":"text","variable":"txt_postalCode","var_uid":"97177953467385f3bd8be63098336059","dataType":"string","protectedValue":false,"id":"txt_postalCode","name":"txt_postalCode","label":"کد پستی","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":"100","formula":"","mode":"view","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txt_postalCode","colSpan":3}],[{"type":"panel","id":"pnl_04","content":"<div style=\"background-color:darkgreen;color:white;height:30px;width:100%\">\n            <center><h3>\n            مدارک را در این قسمت بارگذاری نمایید\n            </h3></center>\n</div>","border":"1px","colSpan":12}],[{"colSpan":6},{"type":"grid","variable":"gridVar001","var_uid":"30420868267399081657892010042188","dataType":"grid","protectedValue":false,"id":"gridVar001","name":"gridVar001","label":"","hint":"","required":false,"requiredFieldErrorMessage":"","columns":[{"type":"multipleFile","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"fil_documents","name":"fil_documents","label":"آپلود فایل","tabIndex":"","ariaLabel":"","inputDocument":"","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*","size":1024,"sizeUnity":"KB","enableVersioning":false,"mode":"disabled","multiple":false,"inp_doc_uid":"","columnWidth":"50","width":100,"title":"آپلود فایل","var_name":"gridVar001"},{"type":"dropdown","variable":"","var_uid":"","dataType":"","protectedValue":false,"id":"dropdown0000000002","name":"dropdown0000000002","label":"عنوان مدارک","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"تصویر شناسنامه"},{"value":"2","label":"تصویر کارت ملی"},{"value":"3","label":"تصویر مدرک تحصیلی"},{"value":"4","label":"تصویر سند"}],"columnWidth":"50","width":100,"title":"عنوان مدارک"}],"data":[],"mode":"disabled","layout":"responsive","pageSize":"0","addRow":true,"deleteRow":true,"title":"","colSpan":6}],[{"type":"textarea","variable":"txr_01","var_uid":"67133478067443e1d479f57068006768","dataType":"string","protectedValue":false,"id":"txr_02","name":"txr_01","label":"توضیحات","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"5","var_name":"txr_01","colSpan":6},{"type":"radio","variable":"rad_02","var_uid":"584064023674440fed13ee9064219017","dataType":"string","protectedValue":false,"id":"rad_02","name":"rad_02","label":"اعلام نظر","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"edit","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"1","label":"تایید"},{"value":"2","label":"اصلاح"}],"var_name":"rad_02","colSpan":4},{"type":"submit","id":"sbt_01","name":"sbt_01","label":"ثبت و ارسال","tabIndex":"","ariaLabel":"","colSpan":2}]],"variables":[{"var_uid":"68026998067383eb32c05a1062891378","prj_uid":"90093975067383acc7add76075727389","var_name":"requester_status","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"حقیقی"},{"value":"2","label":"حقوقی"}],"inp_doc_uid":"","var_uid_old":"68026998067383eb32c05a1062891378","var_name_old":"requester_status","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"36058389367384c46014205093883823","prj_uid":"90093975067383acc7add76075727389","var_name":"text_fullname","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"36058389367384c46014205093883823","var_name_old":"text_fullname","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"790159860673ed00f1b8f57087629191","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_nationalCode","var_field_type":"integer","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"790159860673ed00f1b8f57087629191","var_name_old":"txt_nationalCode","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"24694013467385889a67372019887899","prj_uid":"90093975067383acc7add76075727389","var_name":"dat_birthday","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"24694013467385889a67372019887899","var_name_old":"dat_birthday","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"851523938673858420c3a99044590366","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_faderName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"851523938673858420c3a99044590366","var_name_old":"tex_faderName","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"452074461673859216c9c51066567921","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_birthCity","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"452074461673859216c9c51066567921","var_name_old":"tex_birthCity","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"384708947673858e398dc74062884107","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_shenasnameh_code","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"384708947673858e398dc74062884107","var_name_old":"tex_shenasnameh_code","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"6436566876738598abe6af8030841739","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobil","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"6436566876738598abe6af8030841739","var_name_old":"tex_mobil","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"9454925136738595ba005b8068705717","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumber","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"9454925136738595ba005b8068705717","var_name_old":"tex_tellNumber","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"27378627767385bbc0f1ef8086319135","prj_uid":"90093975067383acc7add76075727389","var_name":"rad_gender","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"1","label":"مرد"},{"value":"2","label":"زن"}],"inp_doc_uid":"","var_uid_old":"27378627767385bbc0f1ef8086319135","var_name_old":"rad_gender","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"68651081467385cdfd4e120062386554","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_fullNameNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"68651081467385cdfd4e120062386554","var_name_old":"tex_fullNameNemayandeh","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"71556774667385ca2528ba8026479701","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_personalCodeNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"71556774667385ca2528ba8026479701","var_name_old":"tex_personalCodeNemayandeh","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"67674718867385d556b6fe7059870918","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"67674718867385d556b6fe7059870918","var_name_old":"tex_mobileNemayandeh","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"61994403267385d1e67bdd1099005888","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberNemayandeh","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"61994403267385d1e67bdd1099005888","var_name_old":"tex_tellNumberNemayandeh","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"75034714567385e64d1e5e6007940186","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_mobileMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"75034714567385e64d1e5e6007940186","var_name_old":"tex_mobileMalek","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"78548851867385e320abe14005017025","prj_uid":"90093975067383acc7add76075727389","var_name":"tex_tellNumberMalek","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"78548851867385e320abe14005017025","var_name_old":"tex_tellNumberMalek","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"77780169467386067b2f898062485669","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_address","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"77780169467386067b2f898062485669","var_name_old":"txt_address","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"839295820673a027ea961a8026323765","prj_uid":"90093975067383acc7add76075727389","var_name":"drp_city","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"839295820673a027ea961a8026323765","var_name_old":"drp_city","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"97177953467385f3bd8be63098336059","prj_uid":"90093975067383acc7add76075727389","var_name":"txt_postalCode","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"97177953467385f3bd8be63098336059","var_name_old":"txt_postalCode","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"30420868267399081657892010042188","prj_uid":"90093975067383acc7add76075727389","var_name":"gridVar001","var_field_type":"grid","var_field_size":10,"var_label":"grid","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"30420868267399081657892010042188","var_name_old":"gridVar001","prj_uid_old":"90093975067383acc7add76075727389"},{"var_uid":"67133478067443e1d479f57068006768","prj_uid":"90093975067383acc7add76075727389","var_name":"txr_01","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"584064023674440fed13ee9064219017","prj_uid":"90093975067383acc7add76075727389","var_name":"rad_02","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2024-11-25 17:34:37]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>2006482046741ab95f2bcb3084013301</step_uid>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>32314460967383b4641d3d2014954120</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>99282079867418658dcee96067319156</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>35664816467444254d30300081995036</step_uid>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>50064808667383b6e53b597004809060</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>12096070967443eaae99cf9001193965</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>170565731673ee6613e2801062985368</step_uid>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tas_uid>wee-4525367383b466f09d8003125499</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>72321366967383cce387c03058240915</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>266837428674f029c0c09d8035113032</tri_uid>
+        <tri_title>test_creatUser</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[
+$nationalCode = @@txt_nationalCode; // دریافت کد ملی از فرم
+$mobile = @@tex_mobil;             // دریافت شماره موبایل از فرم
+$fullName = @@text_fullname;       // دریافت نام و نام خانوادگی از فرم
+// بررسی وجود کد ملی در پایگاه داده
+$query = "SELECT COUNT(*) AS count FROM USER WHERE USR_USERNAME = ?";
+$result = executeQuery($query, [$nationalCode]);
+
+if ($result && $result[1]['count'] > 0) {
+    // کد ملی قبلاً ثبت شده است
+    @@errorMessage = "این کد ملی قبلاً ثبت شده است.";
+} else {
+    // ایجاد کاربر جدید
+    $username = $nationalCode; // استفاده از کد ملی به عنوان یوزرنیم
+    @%result = PMFCreateUser($username, $mobile, $fullName, $fullName, 'hr@example.com',
+        'PROCESSMAKER_OPERATOR', '2018-12-31', 'ACTIVE');
+    if (@%result) {
+        require_once 'classes/model/Users.php';
+        $u = new Users();
+        $aUser = $u->loadByUsernameInArray($username);
+        $aUser = $u->load($aUser['USR_UID']);
+ 
+        $aReplaced = $u->loadByUsernameInArray('dsmith');
+        $aUser['USR_REPLACED_BY'] = $aReplaced['USR_UID'];
+ 
+        @@res = $u->create($aUser);
+    } else {
+        // خطا در ایجاد کاربر
+        @@errorMessage = "خطا در ایجاد کاربر. لطفاً دوباره تلاش کنید.";$errorMessage=@@errorMessage; @@hiden=$errorMessage;
+
+    }
+}
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>346529925673ee48f7f9963096975482</tri_uid>
+        <tri_title>show_info</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@userInformation = array();
+@@userInformation[1] = PMFInformationUser('50125991157c071f6d684f8088171283');]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>380397461674eaa667b6382046201387</tri_uid>
+        <tri_title>unique_nationalcode_simple</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$nationalCode = @@txt_nationalCode; // دریافت کد ملی از ورودی فرم
+
+// اجرای کوئری برای بررسی وجود کد ملی
+$query = "SELECT COUNT(*) AS count FROM USER WHERE USR_USERNAME = ?";
+$result = executeQuery($query, [$nationalCode]);
+
+// ذخیره نتیجه در متغیرهای فرآیند
+//if ($result && $result[1]['count'] > 0) {
+
+if(1>0){
+   $isDuplicate=true;
+    @@isDuplicate=$isDuplicate;
+} else {
+  $isDuplicate=false;
+@@isDuplicate=$isDuplicate;
+}
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>4962357906750141161b7d8073474936</tri_uid>
+        <tri_title>empty_hid</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$hid='';
+@@hid=$hid;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>77879967167456e81dc5584029721923</tri_uid>
+        <tri_title>Unique_nationalCode</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$nationalCode = @@txt_nationalCode; // دریافت کد ملی از ورودی فرم
+
+// اجرای کوئری برای بررسی وجود کد ملی
+$query = "SELECT COUNT(*) AS count FROM USER WHERE USR_USERNAME = ?";
+$result = executeQuery($query, [$nationalCode]);
+
+// ذخیره نتیجه در متغیرهای فرآیند
+//if ($result && $result[1]['count'] > 0) {
+
+if(1>0){
+   $isDuplicate="true";
+    @@isDuplicate=$isDuplicate;
+} else {
+  $isDuplicate=false;
+@@isDuplicate=$isDuplicate;
+}
+
+
+
+if (1>0){//($result[1]['count'] > 0) {
+    $hid="duplicate";
+    @@hid=$hid;
+
+} else {
+    $hid="uniq";
+    @@hid=$hid;
+}
+
+
+
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>812749969674427153160c9020118131</tri_uid>
+        <tri_title>create_user</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[
+$username = @@txt_nationalCode;
+@%result = PMFCreateUser($username, @@tex_mobil, @@text_fullname , @@text_fullname, 'hr@example.com',
+   'PROCESSMAKER_OPERATOR', '2018-12-31', 'ACTIVE');
+if (@%result) {
+   require_once 'classes/model/Users.php';
+   $u = new Users();
+   $aUser = $u->loadByUsernameInArray($username);
+   $aUser = $u->load($aUser['USR_UID']);
+ 
+	$aReplaced = $u->loadByUsernameInArray('dsmith');
+   $aUser['USR_REPLACED_BY']  = $aReplaced['USR_UID'];
+ 
+   @@res = $u->create($aUser);
+}
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>832093857673853fe7e3b90039776038</tri_uid>
+        <tri_title>pesonalCodeValidation</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// Trigger to validate Iranian National Code in ProcessMaker
+
+// Replace 'form[national_code]' with the variable name of your national code field in ProcessMaker
+var nationalCode = @@txt_personalCode;
+
+function isValidIranianNationalCode(code) {
+    // Check if the input is a 10-digit number
+    if (!/^\d{10}$/.test(code)) return false;
+
+    // Extract the check digit
+    const check = +code[9];
+
+    // Calculate the checksum
+    const sum = Array.from(code.substring(0, 9)).reduce((acc, digit, index) => {
+        return acc + (+digit * (10 - index));
+    }, 0);
+
+    // Validate based on the checksum rules
+    const remainder = sum % 11;
+    return (remainder < 2 && check === remainder) || (remainder >= 2 && check === 11 - remainder);
+}
+
+if (!isValidIranianNationalCode(nationalCode)) {
+    // Validation failed: Display error and stop the process
+    throw "کد ملی وارد شده معتبر نیست. لطفاً مجدداً بررسی کنید.";
+}
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>8509191316739a1355528c3073611828</tri_uid>
+        <tri_title>citys</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@drp_city_1= executeQuery("SELECT ID, name FROM PMT_city_names");
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-1</step_uid>
+        <tas_uid>32314460967383b4641d3d2014954120</tas_uid>
+        <tri_uid>832093857673853fe7e3b90039776038</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>170565731673ee6613e2801062985368</step_uid>
+        <tas_uid>wee-4525367383b466f09d8003125499</tas_uid>
+        <tri_uid>812749969674427153160c9020118131</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>90093975067383acc7add76075727389</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>24694013467385889a67372019887899</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>dat_birthday</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_type_id>5</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>839295820673a027ea961a8026323765</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>drp_city</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9432352736738a89a918563041491417</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>drp_city_1</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql><![CDATA[SELECT ID, city_name FROM PMT_CITY_NAMES]]></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>14225356067389e7f4c71c1023051024</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>drp_shahrestan</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>7422604756738640ca8a251056096949</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>fil_documents</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_type_id>9</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>30420868267399081657892010042188</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>gridVar001</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_type_id>6</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>18845465867500632451485009447916</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>hid</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>584064023674440fed13ee9064219017</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>rad_02</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>27378627767385bbc0f1ef8086319135</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>rad_gender</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u0645\u0631\u062f"},{"value":"2","label":"\u0632\u0646"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>68026998067383eb32c05a1062891378</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>requester_status</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"\u062d\u0642\u06cc\u0642\u06cc"},{"value":"2","label":"\u062d\u0642\u0648\u0642\u06cc"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>486891491673a017178ce65005050958</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>sug</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3170386476739920461d182063389298</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>suggestVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>32014283667399330c3f127017784621</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>suggestVar002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>140151872673862ef5f5ea8036104927</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>sug_documents</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>10698188967388c81dd7570090068093</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>textVar001</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>36058389367384c46014205093883823</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>text_fullname</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>2375415936738934fdf1de1049021637</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>text_postalCode</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>452074461673859216c9c51066567921</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_birthCity</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>851523938673858420c3a99044590366</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_faderName</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>68651081467385cdfd4e120062386554</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_fullNameNemayandeh</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>6436566876738598abe6af8030841739</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_mobil</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>75034714567385e64d1e5e6007940186</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_mobileMalek</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>67674718867385d556b6fe7059870918</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_mobileNemayandeh</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>71556774667385ca2528ba8026479701</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_personalCodeNemayandeh</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>384708947673858e398dc74062884107</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_shenasnameh_code</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>9454925136738595ba005b8068705717</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_tellNumber</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>78548851867385e320abe14005017025</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_tellNumberMalek</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>61994403267385d1e67bdd1099005888</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>tex_tellNumberNemayandeh</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>3821546656738440899a100061753628</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>title1</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>67133478067443e1d479f57068006768</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txr_01</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>542051429673e228b632e84059183500</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt1</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>391322455673e22d766f921007473028</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt2</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>77780169467386067b2f898062485669</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_address</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>385548974673891cc4ede15005423490</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_mobil</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>85658797367389302d5dcf0049158918</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_mobileMalek</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>8881024966738928625ed38019491469</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_mobileNemayandeh</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>790159860673ed00f1b8f57087629191</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_nationalCode</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>21223775867389204bda641032724269</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_personalCodeNemayandeh</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>97177953467385f3bd8be63098336059</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_postalCode</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>81760671367385f8836ddd8079604884</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_shahrestan</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>675765437673891924d9e65072921815</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_tellNumber</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>219387175673892cbc84d86045516940</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_tellNumberMalek</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>4092241706738923fbad6f4044543440</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>txt_tellNumberNemayandeh</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>716573125673ee367aa7b57098690092</var_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <var_name>userInformation</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_type_id>6</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent">
+      <record>
+        <wee_uid>890591571673854b566e377036738770</wee_uid>
+        <prj_uid>90093975067383acc7add76075727389</prj_uid>
+        <evn_uid>45164525367383b466f09d8003125499</evn_uid>
+        <act_uid>32314460967383b4641d3d2014954120</act_uid>
+        <dyn_uid></dyn_uid>
+        <usr_uid>00000000000000000000000000000002</usr_uid>
+        <wee_title>45164525367383b466f09d8003125499</wee_title>
+        <wee_description></wee_description>
+        <wee_status>ENABLED</wee_status>
+        <wee_we_uid>405859228673854b5515310081904807</wee_we_uid>
+        <wee_we_tas_uid>wee-4525367383b466f09d8003125499</wee_we_tas_uid>
+        <wee_we_url>45164525367383b466f09d8003125499.php</wee_we_url>
+        <we_custom_title></we_custom_title>
+        <we_type>MULTIPLE</we_type>
+        <we_authentication>ANONYMOUS</we_authentication>
+        <we_hide_information_bar>1</we_hide_information_bar>
+        <we_callback>PROCESSMAKER</we_callback>
+        <we_callback_url></we_callback_url>
+        <we_link_generation>DEFAULT</we_link_generation>
+        <we_link_skin>classic</we_link_skin>
+        <we_link_language>en</we_link_language>
+        <we_link_domain></we_link_domain>
+        <tas_uid>wee-4525367383b466f09d8003125499</tas_uid>
+        <we_show_in_new_case>0</we_show_in_new_case>
+      </record>
+    </table>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>for_edite</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389\12096070967443eaae99cf9001193965.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkwMDkzOTc1MDY3MzgzYWNjN2FkZDc2MDc1NzI3Mzg5LzEyMDk2MDcwOTY3NDQzZWFhZTk5Y2Y5MDAxMTkzOTY1IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>show_info</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389\419238026673ee3428caf95067457669.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkwMDkzOTc1MDY3MzgzYWNjN2FkZDc2MDc1NzI3Mzg5LzQxOTIzODAyNjY3M2VlMzQyOGNhZjk1MDY3NDU3NjY5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>fill_form</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389\72321366967383cce387c03058240915.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkwMDkzOTc1MDY3MzgzYWNjN2FkZDc2MDc1NzI3Mzg5LzcyMzIxMzY2OTY3MzgzY2NlMzg3YzAzMDU4MjQwOTE1IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>test_code</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389\942361191673e225ea3d9b9071999633.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkwMDkzOTc1MDY3MzgzYWNjN2FkZDc2MDc1NzI3Mzg5Lzk0MjM2MTE5MTY3M2UyMjVlYTNkOWI5MDcxOTk5NjMzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>preview_admin</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389\99282079867418658dcee96067319156.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjkwMDkzOTc1MDY3MzgzYWNjN2FkZDc2MDc1NzI3Mzg5Lzk5MjgyMDc5ODY3NDE4NjU4ZGNlZTk2MDY3MzE5MTU2IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="public">
+      <file_name>45164525367383b466f09d8003125499Info.php</file_name>
+      <file_path><![CDATA[90093975067383acc7add76075727389/45164525367383b466f09d8003125499Info.php]]></file_path>
+      <file_content><![CDATA[PD9waHAKCiRHX1BVQkxJU0ggPSBuZXcgUHVibGlzaGVyKCk7CiRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKJG1lc3NhZ2UgPSAiIjsKaWYgKGlzc2V0KCRfU0VTU0lPTlsiX193ZWJFbnRyeVN1Y2Nlc3NfXyJdKSkgewogICAgJHNob3cgPSAibG9naW4vc2hvd0luZm8iOwogICAgJG1lc3NhZ2UgPSAkX1NFU1NJT05bIl9fd2ViRW50cnlTdWNjZXNzX18iXTsKfSBlbHNlIHsKICAgICRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKICAgICRtZXNzYWdlID0gJF9TRVNTSU9OWyJfX3dlYkVudHJ5RXJyb3JfXyJdOwp9CiRHX1BVQkxJU0gtPkFkZENvbnRlbnQoInhtbGZvcm0iLCAieG1sZm9ybSIsICRzaG93LCAiIiwgJG1lc3NhZ2UpOwpHOjpSZW5kZXJQYWdlKCJwdWJsaXNoIiwgImJsYW5rIik7Cgo=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
